@@ -1,0 +1,33 @@
+.header {
+    background-color: rgba(0, 0, 0, 0.5); 
+/* background-color: black;
+opacity: ; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* padding-top: 25px;
+    padding-bottom: 25px; (это высота)*/
+    height: 110px;
+
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.navs a{
+    color: seashell;
+    text-transform: uppercase;
+    transition: .7s;
+    font-size: 14px;
+    font-size: bold;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.navs a:hover {
+    color: c5a862;
+}
+.main-home {
+    background-image: url(../images/home-bg.jpg);
+    height: 90vh;
+}

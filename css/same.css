@@ -1,0 +1,37 @@
+.container {
+    /* margin-right: 5%;
+    margin-left: 5%; */
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.btn {
+    background-color:  #c5a862;
+    color: #fff;
+    width: 220px;
+    height: 50px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center; /* выравнивает по горизонтали */
+    border: 1px solid #c5a862;
+    }
+.btn-row{
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+.btn:hover {
+    background-color: #a07e2d;
+    background-color: #a07e2d;
+}
+
+.btn-border {
+    background-color: transparent;
+    border-color: #fff;
+    margin-right: 15px;
+}
+.btn-border:hover {
+    background-color: #c5a862;
+    border-color: #c5a862;
+}
